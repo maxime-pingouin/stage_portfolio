@@ -11,7 +11,7 @@ html {
 body {
     font-family: Arial, sans-serif;
     color: #111a35;
-    background: #ffffff;
+    background: #FEFAE0;
     line-height: 1.6;
 }
 
@@ -21,8 +21,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 8%;
-    border-bottom: 1px solid #e8ecf5;
-    background: white;
+    border-bottom: 1px solid #ccd5ae;
+    background: #E9EDC9;
 
     position: sticky;
     top: 0;
@@ -36,7 +36,7 @@ header {
 }
 
 .logo span {
-    color: #5271ff;
+    color: #00a71c;
 }
 
 svg.lucide {
@@ -53,8 +53,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #5271ff;
-    border-bottom-color: #5271ff;
+    color: #00a71c;
+    border-bottom-color: #00a71c;
 }
 
 section {
@@ -74,7 +74,7 @@ section {
 }
 
 .hello {
-    color: #5271ff;
+    color: #00a71c;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -101,13 +101,13 @@ h1 {
 
 .btn {
     display: inline-block;
-    background: #5271ff;
+    background: #00a71c;
     color: white;
     padding: 14px 28px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 8px 20px rgba(82, 113, 255, 0.25);
+    box-shadow: 0 8px 20px rgba(149, 254, 174, 0.25);
 }
 
 .hero-image {
@@ -141,13 +141,13 @@ h1 {
     width: 80px;
     height: 80px;
     background: white;
-    border: 3px solid #c8d2ff;
+    border: 3px solid #FAEDCD;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: #5271ff;
+    color: #00a71c;
 }
 
 .icon-card.left {
@@ -161,7 +161,7 @@ h1 {
 }
 
 .light {
-    background: #f5f7ff;
+    background: #FAEDCD;
 }
 
 .about {
@@ -175,7 +175,7 @@ h1 {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #e9edff;
+    background: #E9EDC9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,7 +194,7 @@ h2 {
 
 .separator {
     height: 180px;
-    background: #dce2f2;
+    background: #ccd5ae;
 }
 
 .info {
@@ -218,7 +218,7 @@ h2 {
     display: block;
     width: 40px;
     height: 3px;
-    background: #5271ff;
+    background: #00a71c;
     margin: 12px auto 0;
     border-radius: 10px;
 }
@@ -251,8 +251,8 @@ h2 {
 }
 
 .card {
-    background: white;
-    border: 1px solid #dfe4ef;
+    background: #FEFAE0;
+    border: 1px solid #ccd5ae;
     border-radius: 8px;
     padding: 45px 30px;
     text-align: center;
@@ -280,7 +280,7 @@ h2 {
 }
 
 .card a {
-    color: #5271ff;
+    color: #00a71c;
     text-decoration: none;
     font-weight: bold;
 }
@@ -298,8 +298,8 @@ h2 {
 }
 
 .btn-outline {
-    border: 2px solid #5271ff;
-    color: #5271ff;
+    border: 2px solid #00a71c;
+    color: #00a71c;
     padding: 14px 35px;
     border-radius: 8px;
     text-decoration: none;
@@ -326,7 +326,7 @@ footer {
     padding: 30px 8%;
     text-align: center;
     color: #44506a;
-    background: #f5f7ff;
+    background: #FAEDCD;
 }
 
 @media (max-width: 900px) {
